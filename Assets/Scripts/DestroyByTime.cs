@@ -9,6 +9,7 @@ public class DestroyByTime : MonoBehaviour {
 
     void Start()
     {
+        //等待lifetime时间销毁
         Destroy(gameObject, lifetime);
     }
 

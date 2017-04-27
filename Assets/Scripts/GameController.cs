@@ -60,8 +60,9 @@ public class GameController : MonoBehaviour {
             }
         }
 	}
-    public void addScore(int newScore)
+    public void AddScore(int newScore)
     {
+        if (gameOver) return;
         score += newScore;
         UpdateScore();
     }

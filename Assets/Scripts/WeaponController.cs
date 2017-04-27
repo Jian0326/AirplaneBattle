@@ -17,6 +17,7 @@ public class WeaponController : MonoBehaviour {
 	void Update () {
         
 	}
+    //敌方子弹
     void Fire()
     {
         Instantiate(shot, shotSpawn.position, shotSpawn.rotation);

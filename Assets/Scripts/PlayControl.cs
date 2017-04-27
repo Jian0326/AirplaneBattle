@@ -37,6 +37,7 @@ public class PlayControl : MonoBehaviour
     }
     public void FixedUpdate()
     {
+        //移動飛機
         float moveH = Input.GetAxis("Horizontal");
         float moveV = Input.GetAxis("Vertical");
         Vector3 movement = new Vector3(moveH, 0.0f, moveV);

@@ -25,13 +25,15 @@ public class DestroyByContact : MonoBehaviour {
 	void Update () {
 		
 	}
+    //刚体发生碰撞后
     public void OnTriggerExit(Collider other)
     {
         if (other.tag == "Boundary" || other.tag == "Enemy")
         {
             return;
         }
-        if( null != explosion)
+        
+        if ( null != explosion)
         {
             Instantiate(explosion, transform.position, transform.rotation);
         }
@@ -41,8 +43,8 @@ public class DestroyByContact : MonoBehaviour {
             gc.GameOver();
         }
         Debug.LogFormat("by contact trigger exit tag = {0}",other.tag);
-        gc.addScore(scoreValue);
         Destroy(other.gameObject);
         Destroy(gameObject);
+        gc.AddScore(scoreValue);
     }
 }

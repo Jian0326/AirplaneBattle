@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//用来删除boundary范围外的子弹
+
 public class DestroyByBoundary : MonoBehaviour {
    	// Use this for initialization
 	void Start () {

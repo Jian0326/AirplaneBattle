@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirplaneBattle", "AirplaneBattle.csproj", "{BDB6864F-7838-EA2E-894B-422BC9112E57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirplaneBattle.Editor", "AirplaneBattle.Editor.csproj", "{54918475-446A-2F72-F883-85DB4D88E067}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{BDB6864F-7838-EA2E-894B-422BC9112E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDB6864F-7838-EA2E-894B-422BC9112E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDB6864F-7838-EA2E-894B-422BC9112E57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54918475-446A-2F72-F883-85DB4D88E067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54918475-446A-2F72-F883-85DB4D88E067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54918475-446A-2F72-F883-85DB4D88E067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54918475-446A-2F72-F883-85DB4D88E067}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
